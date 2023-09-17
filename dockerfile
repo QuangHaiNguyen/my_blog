@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM debian
 
 SHELL ["/bin/bash", "-c"] 
 

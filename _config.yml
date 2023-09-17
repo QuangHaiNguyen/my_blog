@@ -155,7 +155,7 @@ night_mode: "on"
 header_pages:
    - index.html
    - archives.html
-   - cv.md
+   - categories.html
    - tags.html
    - about.md
 

@@ -29,7 +29,7 @@ khởi đầu. Vậy định nghĩa này dịch ra tiếng việt nghĩa là:
 vi xử lý, bộ nhớ, thiết bị ngoại vi. Hệ thống này thực hiện một (hoặc một số)
 chức năng cụ thể trong một hệ thống cơ-điện tử lớn hơn.
 
-![embedded systems](/assets/images/20240426/embedded_system.jpg)
+![embedded systems](/my_blog/assets/images/20240426/embedded_system.jpg)
 *Foto von <a href="https://unsplash.com/de/@umby?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Umberto</a> auf <a href="https://unsplash.com/de/fotos/blaue-platine-jXd2FSvcRr8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>*
 
 Định nghĩa trên tạm ổn trừ một chi tiết "Chức năng cụ thể". Vậy "chức năng
@@ -57,7 +57,7 @@ Vậy kỹ sư lập trình nhúng là người thiết kế các hệ thống n
 nhúng được cấu thành bởi vi xử lý, bộ nhớ và thiết bị ngoại vi, và các linh kiện
 này được điều khiền bằng cách lập trình (lập trình như thế nào là một câu chuyện khác).
 
-![tea machine](/assets/images/20240426/tea_machine.gif)
+![tea machine](/my_blog/assets/images/20240426/tea_machine.gif)
 *Chiếc máy tự động nhất túi lọc trà lên sau một thời khoảng thời gian được thiết lập trước*
 
 ## Học ngành nào để trở thành kỹ sư lập trình nhúng
@@ -121,7 +121,7 @@ Ngoài ra, đối với những dự án đã hoàn thành, bạn phải:
 - Hiểu được nguyên tắc hoạt động của rất nhiều vật dụng và thiết bị trong cuộc sống
 - Cảm giác lập trình để cho một cỗ máy hoạt động và tương tác với môi trường thì rất thỏa mãn
 
-![ambient light project based on arduino](/assets/images/20240426/ambient_light.gif)
+![ambient light project based on arduino](/my_blog/assets/images/20240426/ambient_light.gif)
 *Ambient light cho TV dựa trên arduino uno*
 
 ## Thuận lợi và thách thức
@@ -153,7 +153,7 @@ Ngoài ra, đối với những dự án đã hoàn thành, bạn phải:
 - Mặc dù đòi hỏi cao về kiến thức cũng như kỹ năng liên quan (và cả không liên quan)
   đến ngành học, ngành nhúng không được trả lương cao so với các anh em web, mobile hay desktop; trừ một số nhánh như automotive, defense, aviation...
 
-![evaluation board](/assets/images/20240426/evaluation_board.jpg)
+![evaluation board](/my_blog/assets/images/20240426/evaluation_board.jpg)
 *Evaluation board được dùng để phát triển phần mềm trong lục mạch PCB chưa đuộc thiết kế hoàn chỉnh*
 
 ## Lời kết

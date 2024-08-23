@@ -43,11 +43,10 @@ author: Quang Hải Nguyễn
 copyright: "Copyright (c) 2023-{currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Một chiếc blog cá nhân bàn về hệ thống nhúng (embedded systems) và những
+  thứ liên quan
 
-baseurl: "/my_blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
 favicon: "" # the favicon for your site
 
@@ -70,10 +69,10 @@ yat:
 # enableDNT: "false"
 
 # If you want to generate website sitemap, you can set true
-# sitemap: false
+sitemap: true
 
 # If you want to change site language, you can set lang option
-# lang: "en"  # default lang is en
+lang: "vi"  # default lang is en
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
@@ -140,7 +139,7 @@ yat:
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
 #
-night_mode: "on"
+night_mode: "off"
 
 # Code badge setting
 # You can enable or disable the code badge and so on

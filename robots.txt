@@ -1,0 +1,1 @@
+Sitemap: /my_blog/sitemap.xml

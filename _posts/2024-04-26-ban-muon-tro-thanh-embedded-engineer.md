@@ -63,21 +63,21 @@ này được điều khiền bằng cách lập trình (lập trình như thế
 ## Học ngành nào để trở thành kỹ sư lập trình nhúng
 Nếu bạn bắt đầu cảm thấy hứng thú với ngành này thì câu hỏi tiếp theo sẽ là bắt
 đầu từ đâu? Vì ngành nhúng pha trộn giữa cả phần cứng và phần mềm nên bạn có 
-thể bắt đầu theo hai hướng này, và mỗi hướng đều có mặt lợi và và bất lợi khác nhau
+thể bắt đầu với một trong hai hướng này, và mỗi hướng đều có mặt lợi và hại khác nhau.
 
 ### Điện-điện tử
 Nhóm ngành điện-điện tử sẽ cung cấp cho bạn các kiến thức liên quan đến:
 - Phân tích mạch điện (circuit analysis)
 - Các thức hoạt động của linh kiện điện tử
-- Thiết kế mạch điện tử hoặc mạch công suất sao
+- Thiết kế mạch điện tử hoặc mạch công suất cao
 - Nếu may mắn (hoặc không) bạn sẽ được học thêm kĩ thuật sóng cao tần (radio engineering)
-- Cũng như các kiến thức cơ bản về vi điều khiển (microcontroller) và lập trình cách chúng
+- Cũng như các kiến thức cơ bản về vi điều khiển (microcontroller) và cách lập trình chúng
 
 Rõ ràng khi học ngành điện-điện tử thì bạn sẽ có lợi thế rất lớn về phần cứng,
 biết cách thiết kế mạch, đọc bản vẽ mạch, sử dụng các thiết bị đo để phân tích
 và xử lý lỗi. Tuy nhiên, do các hệ thống nhúng có phần mềm ngày càng phức tạp,
 thì kiến thức lập trình của các bạn chỉ đủ đáp ứng được các công việc đơn giản.
-Do đó khi bạn học ngành điện-điện từ, bạn phải trao dồi thật nhiều ở mảng lập trình.
+Do đó khi bạn học ngành điện-điện tử, bạn phải trao dồi thật nhiều ở mảng lập trình.
 
 ### Khoa học máy tính
 Ngược lại các nhóm ngành khoa học máy tình sẽ cho bạn kiến thức liên quan đến:
@@ -86,16 +86,15 @@ Ngược lại các nhóm ngành khoa học máy tình sẽ cho bạn kiến th�
 - Hệ điều hành
 - Thiết kế hệ thống, thiết kế kiến trúc phần mềm
 - Quản lý dự án
-- Một số ngàng cũng có môn học về hệ thống nhúng.
+- Một số nhánh của khoa học máy tính cũng có môn học về hệ thống nhúng
 
-Chúng ta cũng thấy rõ ràng là, khi hệ thống nhúng càng ngày càng nặng về phần mềm
-thì việc học ngành khoa học máy tính sẽ giúp bạn có một nền tảng vững chắc trong
-việc thiết kế và lập trình phần mềm. Tuy nhiên, hệ thống nhúng luôn dính liền với
-phần cứng nên việc hiều về phần cứng sẽ giúp công việc dễ dàng hơn và giúp bạn
+Chúng ta có thể thấy rõ ràng là, khi hệ thống nhúng ngày càng nặng về phần mềm
+thì việc học ngành khoa học máy tính sẽ giúp bạn có một nền tảng vững chắc trong việc thiết kế và lập trình phần mềm. Tuy nhiên, hệ thống nhúng luôn dính liền với
+phần cứng nên việc hiểu về phần cứng sẽ giúp công việc dễ dàng hơn và giúp bạn
 tiến xa hơn.
 
 ## Công việc hằng ngày
-Công việc hằng ngày của một kĩ sư lập trình nhúng là gì? Nếu bạn bắt đầu một dự
+Công việc hằng ngày của một kỹ sư lập trình nhúng là gì? Nếu bạn bắt đầu một dự
 án mới thì bạn có thể làm các công việc như sau:
 - Phân tích yêu cầu kỹ thuật (requirement analysis), thiết kế hệ thống và phân
   tách hệ thống thành các mô đun phần mềm nhỏ. Việc này thường được làm cùng với
@@ -107,9 +106,9 @@ Công việc hằng ngày của một kĩ sư lập trình nhúng là gì? Nếu
 - Viết tài liệu
 
 Ngoài ra, đối với những dự án đã hoàn thành, bạn phải:
-- Bảo trì và fix các bug được thông báo bởi khách hàng
-- Thiết kế và lập trình thêm các yêu feature mới
-- Porting các legacy code
+- Bảo trì và fix các bugs được thông báo bởi khách hàng
+- Thiết kế và lập trình thêm các features mới theo yêu cầu của khách hàng
+- Porting legacy code
 
 ## Ngành này có gì hay
 - Vì hệ thống nhúng bao gồm phần cứng và phần mềm nên bạn trở thành một all rounder:
@@ -131,22 +130,21 @@ Ngoài ra, đối với những dự án đã hoàn thành, bạn phải:
   logic analyzer để debug các giao thức: nhẹ thì I2C, nặng thì USB. Chưa kể đến
   việc không có con AI nào có thể debug những lỗi "lâu lâu mới xảy ra" do phần cứng
   không ổn định hoặc lỗi buffer overflow.
-- Kiến thức mang lại giá trị thực tế trong cuộc sống hãng ngày: mối nối bị
-  hỏng - hàn lại là xong, nhà không thông minh (smart home) - tự làm cho thông
-  mình, nhà mất/chậm net - tự sửa, hư hỏng điện - tự sửa (mặc dù không khuyến
-  khích lắm)...
+- Kiến thức mang lại giá trị thực tế trong cuộc sống hàng ngày: mối nối bị
+  hỏng - hàn lại là xong, nhà không thông minh - tự làm cho nó thông
+  minh (smart home), nhà mất/chậm net - tự sửa, hư hỏng điện - tự sửa (mặc dù không khuyến khích lắm)...
 - Thiết kế nên máy móc và thiết bị rất vui, đặc biệt là khi cỗ máy của mình
   thiết kế "sống dậy"
 - Mặc dù ứng dụng của AI ngày càng phổ biến, AI trong hệ thống nhúng, đặc biệt là
-  những hệ thống nhỏ và sử dụng ít năng lượng (low power system) vẫn còn màu mỡ và
-  chưa được khái phá hết (ví dụ predictive maintenance)
+  những hệ thống nhỏ và sử dụng ít năng lượng (low power system) vẫn là mảnh đất màu mỡ chưa được khai thác hết, ví dụ predictive maintenance.
 - Các thiết bị điện tử ngày càng thông minh, ngày càng được tích hợp nhiều vi xử
   lý nên ngành nhúng chắc không hết việc.
 
-### Khó khăn
+### Thách thức
 - Đòi hỏi khả năng đọc rất nhiều (protocol spec, ISO, RFC, datasheet, user manual,
   chưa kể mỗi lần đổi chip là mỗi lần phải đọc một mớ documents mới)
-- Khả năng cập nhật thông tin, kiến thức mới. Khả năng tự học.
+- Khả năng cập nhật thông tin, kiến thức mới.
+- Khả năng tự học.
 - Cần có kỹ năng hands-on (hàn, cắt, sử dụng thiết bị đo...)
 - Ngôn ngữ lập trình C/C++ là cả một thách thức :D
 - Các toolchain, frameworks, workflow thường đi sau các người anh em web, mobile hay desktop
@@ -154,12 +152,7 @@ Ngoài ra, đối với những dự án đã hoàn thành, bạn phải:
   đến ngành học, ngành nhúng không được trả lương cao so với các anh em web, mobile hay desktop; trừ một số nhánh như automotive, defense, aviation...
 
 ![evaluation board](/my_blog/assets/images/20240426/evaluation_board.jpg)
-*Evaluation board được dùng để phát triển phần mềm trong lục mạch PCB chưa đuộc thiết kế hoàn chỉnh*
+*Evaluation board được dùng để phát triển phần mềm trong lúc PCB chưa được thiết kế hoàn chỉnh*
 
 ## Lời kết
-Ngành lập trình nhúng là một trong những phân nhánh của ngành phát triển phần
-mềm với nét thú vị trong việc viết phần mềm để tương tác với phần cứng cũng như
-với môi trường xung quanh. Ngoài kiến thức cũng như kỹ năng lập trình, một
-kỹ sư lập trình nhúng cần phải có kiến thức liên quan đến sản phẩm mà mình đang
-phát triển. Lập trình nhúng là một ngành học thú vị cho các bạn trẻ thích tìm tòi,
-khám phá và cũng như chế tạo các thiết bị, máy móc.
+Ngành lập trình nhúng là một ngành học và làm thú vị do tính chất viết phần mềm để điều khiển phần cứng cũng như tương tác với môi trường xung quanh. Ngoài kiến thức cũng như kỹ năng lập trình, một kỹ sư lập trình nhúng cần phải có kiến thức liên quan đến sản phẩm mà mình đang phát triển. Lập trình nhúng là một ngành học thú vị cho các bạn thích tìm tòi, khám phá và cũng như thích chế tạo các thiết bị cơ-điện tử.

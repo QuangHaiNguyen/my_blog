@@ -4,3 +4,51 @@
   1. Head over to https://realfavicongenerator.net/ to add your own favicons.
   2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
 {% endcomment %}
+
+<style>
+  .about-section {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 2.5rem 0 1.5rem;
+    border-bottom: 1px solid var(--border-color, #e8e8e8);
+    margin-bottom: 2rem;
+  }
+
+  .about-text {
+    flex: 1 1 0;
+  }
+
+  .about-text h2 {
+    margin-top: 0;
+    font-size: 1.6rem;
+  }
+
+  .about-text p {
+    line-height: 1.75;
+    color: var(--text-color-light, #555);
+  }
+
+  .about-photo {
+    flex: 0 0 220px;
+  }
+
+  .about-photo img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+  }
+
+  @media (max-width: 640px) {
+    .about-section {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .about-photo {
+      flex: none;
+    }
+  }
+</style>

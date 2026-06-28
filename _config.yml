@@ -24,9 +24,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Embedded dễ ợt - Easy Embedded
-email: hai.nguyen.quang@outlook.com
-author: Quang Hải Nguyễn
+title: Hải | Digital slice of a normal guy
+email: hainguyen.eeit@gmail.com
+author: Nguyễn Quang Hải
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -43,8 +43,7 @@ author: Quang Hải Nguyễn
 copyright: "Copyright (c) 2023-{currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Một chiếc blog cá nhân bàn về hệ thống nhúng (embedded systems) và những
-  thứ liên quan
+  Suy nghĩ, quan điểm cá thân về con người, cuộc sống, công nghệ, lập trình, và những thứ khác.
 
 baseurl: "/my_blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com

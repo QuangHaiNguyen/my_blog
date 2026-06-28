@@ -9,16 +9,16 @@ docker_build_image:
 	docker build . --tag my_blog
 
 docker_run_bash:
-	sudo docker run -p 4000:4000 --mount src=".",target=/home/my_blog,type=bind -it --rm my_blog
+	docker run -p 4000:4000 --mount src=".",target=/home/my_blog,type=bind -it --rm my_blog
 
 install:
 	bundle install
 
 run_blog:
-	bundle exec jekyll serve -H 0.0.0.0
+	docker run -p 4000:4000 --mount src="$(PWD)",target=/home/my_blog,type=bind --rm my_blog bundle exec jekyll serve -H 0.0.0.0
 
 develop_blog:
-	bundle exec jekyll serve -H 0.0.0.0 --livereload --drafts
+	docker run -p 4000:4000 -p 35729:35729 --mount src="$(PWD)",target=/home/my_blog,type=bind --rm my_blog bundle exec jekyll serve -H 0.0.0.0 --livereload --drafts
 
 help:
 	$(info lists of command:)

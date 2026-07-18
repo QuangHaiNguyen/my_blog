@@ -17,12 +17,12 @@ install:
 run_blog:
 	docker run -p 4000:4000 --mount src="$(PWD)",target=/home/my_blog,type=bind --rm my_blog bundle exec jekyll serve -H 0.0.0.0
 
-develop_blog:
+write_blog:
 	docker run -p 4000:4000 -p 35729:35729 --mount src="$(PWD)",target=/home/my_blog,type=bind --rm my_blog bundle exec jekyll serve -H 0.0.0.0 --livereload --drafts
 
 help:
 	$(info lists of command:)
 	$(info docker_build_image: build docker image based on the dockerfile)
 	$(info docker_run_bash: run container in interactive mode)
-	$(info docker_run_blog: Run the blog)
-	$(info docker_develop_blog: Run the blog in development mode (Flag --liveloads and --drafts is activated))
+	$(info run_blog: Run the blog)
+	$(info write_blog: Run the blog in development mode (Flag --livereload and --drafts is activated))

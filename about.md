@@ -21,7 +21,7 @@ Chào mừng bạn đến với trang portfolio của mình. Đây là phiên b�
 ## Kỹ năng
 
 - Ngôn ngữ lập trình: C/C++, Python, Bash
-- Hệ thống nhúng: FreeRTOS, ThreadX, STM32, PIC32, XMC, ESP32, secure firmware update, các giao thức mạng như TCP/IP, MQTT, WebSocket, cùng với I2C, SPP và UART
+- Hệ thống nhúng: FreeRTOS, ThreadX, STM32, PIC32, XMC, ESP32, secure firmware update, các giao thức mạng như TCP/IP, MQTT, WebSocket, cùng với I2C, SPI và UART
 - Công cụ phát triển: CMake, GCC, GDB, Robot Framework, Docker
 - Kỹ thuật phần mềm: thiết kế hệ thống (system design), kiến trúc phần mềm (software architecture), test-driven development, test automation, UML, CI/CD
 - Phần cứng: sử dụng các thiết bị như oscilloscope, multimeter, signal generator và đọc schematic
@@ -37,7 +37,7 @@ Chào mừng bạn đến với trang portfolio của mình. Đây là phiên b�
 
 ---
 
-## Học vấn
+## Trình độ học vấn
 
 ### Master of Engineering
 
@@ -46,7 +46,7 @@ Chào mừng bạn đến với trang portfolio của mình. Đây là phiên b�
 
 ### Bachelor of Engineering
 
-- Frankfurt University of Applied Sciences
+- Frankfurt University of Applied Sciences - Vietnamese German University
 - Electrical Engineering and Information Technology (Kỹ thuật điện và công nghệ thông tin)
 
 --- 

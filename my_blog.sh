@@ -1,0 +1,1 @@
+sudo docker run -p 4000:4000 --mount src="$(pwd)",target=/home/my_blog,type=bind -it --rm my_blog

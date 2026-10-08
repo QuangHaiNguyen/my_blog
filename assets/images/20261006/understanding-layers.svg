@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title>Hộp đen trong hộp đen: mỗi người chỉ hiểu đến lớp của mình</title>
+  <rect x="1" y="1" width="798" height="558" rx="16" fill="#fafaf7" stroke="#d8d8d0" stroke-width="2"/>
+
+  <rect x="15" y="15" width="770" height="490" rx="18" fill="#f1f1ec" stroke="#aaa" stroke-width="2"/>
+  <text x="40" y="45" font-size="18" font-weight="700" fill="#222">Người lái xe</text>
+  <text x="40" y="66" font-size="14" fill="#555">biết dùng: ga, phanh, vô lăng</text>
+
+  <rect x="85" y="67" width="630" height="386" rx="16" fill="#e2e2da" stroke="#999" stroke-width="2"/>
+  <text x="110" y="97" font-size="18" font-weight="700" fill="#222">Thợ máy</text>
+  <text x="110" y="118" font-size="14" fill="#555">biết cấu tạo xe, biết sửa chữa</text>
+
+  <rect x="155" y="119" width="490" height="282" rx="14" fill="#c9c9bf" stroke="#777" stroke-width="2"/>
+  <text x="180" y="149" font-size="18" font-weight="700" fill="#222">Kỹ sư ô tô</text>
+  <text x="180" y="170" font-size="14" fill="#444">biết thiết kế động cơ, hệ thống phun xăng</text>
+
+  <rect x="225" y="171" width="350" height="178" rx="12" fill="#8d8d84" stroke="#555" stroke-width="2"/>
+  <text x="250" y="201" font-size="18" font-weight="700" fill="#fff">Kỹ sư điện tử</text>
+  <text x="250" y="222" font-size="14" fill="#f0f0f0">biết chip điều khiển động cơ (ECU)</text>
+
+  <rect x="295" y="223" width="210" height="74" rx="10" fill="#222" stroke="#000" stroke-width="2"/>
+  <text x="400" y="253" text-anchor="middle" font-size="18" font-weight="700" fill="#fff">Nhà vật lý</text>
+  <text x="400" y="275" text-anchor="middle" font-size="14" fill="#ddd">biết về nguyên tử</text>
+
+  <text x="400" y="535" text-anchor="middle" font-size="15" font-weight="700" fill="#222">Mỗi người chỉ hiểu đến lớp của mình, phần bên trong coi là hộp đen</text>
+</svg>

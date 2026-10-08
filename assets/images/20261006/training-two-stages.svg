@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title>Hai giai đoạn huấn luyện một chatbot</title>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#555"/>
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="798" height="358" rx="16" fill="#fafaf7" stroke="#d8d8d0" stroke-width="2"/>
+  <text x="400" y="40" text-anchor="middle" font-size="21" font-weight="700" fill="#222">Một chatbot như ChatGPT được dạy qua 2 giai đoạn</text>
+
+  <!-- Stage 1 -->
+  <rect x="30" y="68" width="320" height="250" rx="14" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+  <text x="190" y="98" text-anchor="middle" font-size="17" font-weight="700" fill="#0d47a1">Giai đoạn 1: Đọc thật nhiều</text>
+  <g font-size="14.5" fill="#222" text-anchor="middle">
+    <text x="190" y="135">Hàng nghìn tỷ đoạn văn</text>
+    <text x="190" y="156">(web, sách, mã nguồn...)</text>
+    <text x="190" y="196">Che từ tiếp theo → đoán</text>
+    <text x="190" y="217">→ sai thì máy vặn núm lại</text>
+  </g>
+  <rect x="55" y="245" width="270" height="52" rx="10" fill="#fff" stroke="#1976d2"/>
+  <text x="190" y="267" text-anchor="middle" font-size="14" fill="#0d47a1" font-weight="700">Kết quả: biết ngôn ngữ</text>
+  <text x="190" y="286" text-anchor="middle" font-size="13" fill="#444">nhưng chỉ biết viết tiếp văn bản</text>
+
+  <line x1="355" y1="193" x2="445" y2="193" stroke="#555" stroke-width="3" marker-end="url(#ar)"/>
+
+  <!-- Stage 2 -->
+  <rect x="450" y="68" width="320" height="250" rx="14" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+  <text x="610" y="98" text-anchor="middle" font-size="17" font-weight="700" fill="#1b5e20">Giai đoạn 2: Học cư xử</text>
+  <g font-size="14.5" fill="#222" text-anchor="middle">
+    <text x="610" y="135">Hội thoại mẫu</text>
+    <text x="610" y="156">do con người soạn</text>
+    <text x="610" y="196">Con người chấm điểm</text>
+    <text x="610" y="217">các câu trả lời của AI</text>
+  </g>
+  <rect x="475" y="245" width="270" height="52" rx="10" fill="#fff" stroke="#2e7d32"/>
+  <text x="610" y="267" text-anchor="middle" font-size="14" fill="#1b5e20" font-weight="700">Kết quả: biết làm trợ lý</text>
+  <text x="610" y="286" text-anchor="middle" font-size="13" fill="#444">trả lời câu hỏi, lịch sự, an toàn hơn</text>
+</svg>

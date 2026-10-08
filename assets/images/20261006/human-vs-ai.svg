@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <title>Con người học và AI học khác nhau thế nào</title>
+  <rect x="1" y="1" width="798" height="438" rx="16" fill="#fafaf7" stroke="#d8d8d0" stroke-width="2"/>
+  <text x="400" y="40" text-anchor="middle" font-size="21" font-weight="700" fill="#222">AI không "học" như con người</text>
+
+  <!-- Human -->
+  <rect x="30" y="65" width="350" height="350" rx="14" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+  <text x="205" y="98" text-anchor="middle" font-size="19" font-weight="700" fill="#1b5e20">Con người học</text>
+  <g font-size="15.5" fill="#222">
+    <circle cx="62" cy="140" r="5" fill="#2e7d32"/><text x="78" y="145">Sách vở, kiến thức</text>
+    <circle cx="62" cy="185" r="5" fill="#2e7d32"/><text x="78" y="190">Âm thanh, hình ảnh</text>
+    <circle cx="62" cy="230" r="5" fill="#2e7d32"/><text x="78" y="235">Giác quan, trải nghiệm sống</text>
+    <circle cx="62" cy="275" r="5" fill="#2e7d32"/><text x="78" y="280">Cảm xúc</text>
+    <circle cx="62" cy="320" r="5" fill="#2e7d32"/><text x="78" y="325">Phán xét, suy ngẫm</text>
+  </g>
+  <text x="205" y="385" text-anchor="middle" font-size="14" font-style="italic" fill="#1b5e20">Điều mình nói ra mang theo kinh nghiệm của mình</text>
+
+  <!-- AI -->
+  <rect x="420" y="65" width="350" height="350" rx="14" fill="#eceff1" stroke="#455a64" stroke-width="2"/>
+  <text x="595" y="98" text-anchor="middle" font-size="19" font-weight="700" fill="#263238">AI học</text>
+  <g font-size="15.5" fill="#222">
+    <circle cx="452" cy="140" r="5" fill="#455a64"/><text x="468" y="145">Dữ liệu số, chủ yếu là văn bản</text>
+    <circle cx="452" cy="185" r="5" fill="#455a64"/><text x="468" y="190">Cách học: đoán phần tiếp theo</text>
+    <circle cx="452" cy="230" r="5" fill="#455a64"/><text x="468" y="235">Không có cơ thể, giác quan</text>
+    <circle cx="452" cy="275" r="5" fill="#455a64"/><text x="468" y="280">Không sống trong thế giới thật</text>
+    <circle cx="452" cy="320" r="5" fill="#455a64"/><text x="468" y="325">Không tự kiểm tra đúng sai đáng tin</text>
+  </g>
+  <text x="595" y="385" text-anchor="middle" font-size="14" font-style="italic" fill="#263238">Chọn ra điều "nghe hợp lý" từ dữ liệu đã đọc</text>
+</svg>
